@@ -221,26 +221,44 @@ nav .nav-links ul li a:hover {
 }
 .home .about .photo {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+@media only screen and (max-width:600px) {
+  .home .about .photo {
+    flex-direction: column;
+    width: 95%;
+  }
 }
 .home .about .photo .card {
   width: 30%;
 }
+@media only screen and (max-width:600px) {
+  .home .about .photo .card {
+    width: 90%;
+    margin-left: 10%;
+  }
+}
 .home .about .photo .card h2 {
+  font-family: 'Roboto', sans-serif;
   font-size: 2.2rem;
 }
 .home .about .photo .card h3 {
-  padding-top: .5rem;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
 }
 .home .about .photo .card h4 {
-  padding-top: .5rem;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
 }
 .home .about .photo .card .img-content {
-  width: 25%;
+  width: 60%;
   padding-left: 1%;
+}
+@media only screen and (max-width:600px) {
+  .home .about .photo .card .img-content {
+    width: 80%;
+  }
 }
 .home .about .photo .card .img-content img {
   border-radius: 40%;
@@ -255,9 +273,6 @@ nav .nav-links ul li a:hover {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
-}
-.home .header {
-  border-bottom: 2px dashed #c0c0c0;
 }
 .home .header .intro {
   padding: 1%;
@@ -327,7 +342,7 @@ nav .nav-links ul li a:hover {
   margin: 0 auto 30px;
 }
 .home .content-signmeup .btn {
-  width: 90%;
+  width: 50%;
   height: 4rem;
   padding: 1.25rem;
   color: #ffffff;

@@ -338,19 +338,23 @@ nav .nav-links ul li a:hover {
   padding-left: 0;
 }
 .home .content-signmeup {
-  width: 75%;
+  width: 80%;
   margin: 0 auto 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 .home .content-signmeup .btn {
   width: 50%;
   height: 4rem;
   padding: 1.25rem;
-  color: #ffffff;
   background-color: #17a2b8;
   font-size: 1.8rem;
   border-radius: 1rem;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
 }
 .home .content-signmeup .btn:hover {
   background-color: #36cee6;

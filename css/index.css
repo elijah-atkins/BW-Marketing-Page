@@ -171,10 +171,10 @@ img {
 nav {
   height: 8rem;
   padding: 2rem;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 @media only screen and (max-width:600px) {
   nav {
@@ -215,10 +215,36 @@ nav .nav-links ul li a {
 nav .nav-links ul li a:hover {
   color: #9ba5ae;
 }
+.home .about {
+  padding-top: 30px;
+  border-top: 2px dashed #c0c0c0;
+}
+.home .about .photo {
+  width: 30%;
+  margin-bottom: 30px;
+}
+.home .about .photo .card h2 {
+  font-size: 2rem;
+}
+.home .about .photo .card h3 {
+  padding-top: .5rem;
+  font-size: 1.6rem;
+}
+.home .about .photo .card h4 {
+  padding-top: .5rem;
+  font-size: 1.5rem;
+}
+.home .about .photo .card .img-content {
+  width: 48%;
+  padding-left: 1%;
+}
+.home .about .photo .card .img-content img {
+  border-radius: 40%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #ffebcd;
 }
 .footer p {
   text-align: center;
@@ -227,7 +253,7 @@ nav .nav-links ul li a:hover {
   padding: 20px;
 }
 .home .header {
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 .home .header .intro {
   padding: 1%;
@@ -276,7 +302,7 @@ nav .nav-links ul li a:hover {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 @media only screen and (max-width:600px) {
   .home .inverse-content {
@@ -300,8 +326,8 @@ nav .nav-links ul li a:hover {
   width: 90%;
   height: 4rem;
   padding: 1.25rem;
-  color: #FFFFFF;
-  background-color: #17A2B8;
+  color: #ffffff;
+  background-color: #17a2b8;
   font-size: 1.8rem;
   border-radius: 1rem;
   display: flex;
@@ -320,7 +346,7 @@ nav .nav-links ul li a:hover {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-around;
 }

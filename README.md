@@ -18,7 +18,7 @@ Co-make is an app startup looking for some help making their website. They want 
 * [x] Verify that you have LESS installed correctly by running lessc -v in your terminal, if you don't 
  get a version message back, reach out to your team lead for help.
 * [x] Open your terminal and navigate to your preprocessing project by using the cd command
-* [x] Once in your project's root folder, run the following command `less-watch-compiler less css index`.less
+* [x] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
 * [x] Verify your compiler is working correctly by changing the background-color on the html selector to red in your index.less file.
 * [x] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
@@ -36,13 +36,13 @@ Co-make is an app startup looking for some help making their website. They want 
 8. `home-page.less`
 
 ## Task 5: Design a desktop focused website
-* [ ] Using modern design elements make a marketing website including navigation, header, and buttons
-* [ ] Navigation: Use the `navigation.less` file for all your navigation styling
-* [ ] Main Header: Use the `home-page.less` file for the header styling.
+* [x] Using modern design elements make a marketing website including navigation, header, and buttons
+* [x] Navigation: Use the `navigation.less` file for all your navigation styling
+* [x] Main Header: Use the `home-page.less` file for the header styling.
 
 ## Task 6: Responsive Mobile view
-* [ ] Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your variables.
-* [ ] Make a mobile view that looks good and is easy to use
+* [x] Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your variables.
+* [x] Make a mobile view that looks good and is easy to use
 
 Rubric Item 1: HTML/CSS
 

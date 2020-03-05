@@ -220,22 +220,26 @@ nav .nav-links ul li a:hover {
   border-top: 2px dashed #c0c0c0;
 }
 .home .about .photo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.home .about .photo .card {
   width: 30%;
-  margin-bottom: 30px;
 }
 .home .about .photo .card h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 .home .about .photo .card h3 {
   padding-top: .5rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .home .about .photo .card h4 {
   padding-top: .5rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 .home .about .photo .card .img-content {
-  width: 48%;
+  width: 25%;
   padding-left: 1%;
 }
 .home .about .photo .card .img-content img {
